@@ -1,0 +1,123 @@
+body{
+  display:flex;
+  align-items:center;
+  justify-content:center;
+}
+.container{
+  height:500px;
+  width:800px;
+  border:1px solid lightgray;
+  border-radius:3%;
+  display:flex;
+}
+.box1{
+  background: linear-gradient(to right,#4f46e5,#d946ef);
+  transition:all 1s ease-in-out;
+  border-top-right-radius:250px;
+   border-top-left-radius:0 ;
+    border-bottom-right-radius:250px ;
+     border-bottom-left-radius: 0;
+     width:800px;
+     display:flex;
+     flex-direction:column;
+     justify-content:center;
+     align-items:center;
+}
+h1{
+  font-style:normal;
+  font-weight:bolder;
+  color:white;
+}
+.one{
+  height:35px;
+  width:200px;
+  border-radius: 3px 3px 3px 3px;
+  border:1px solid lightgray;
+  padding-top:15px;
+}
+a{
+  font-weight:200;
+}
+.box2{
+  height:500px;
+  width:800px;
+  border: 1px solid lightgray;
+  border-radius:3%
+}
+.box1:hover{
+  transform:translateX(400px);
+  border-top-right-radius:0 ;
+   border-top-left-radius:250 ;
+    border-bottom-right-radius:0 ;
+     border-bottom-left-radius:250 px;
+}
+.loginpage{
+  height:100px;
+  width:400px;
+  border-radius:3%;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+}
+div{
+  padding-top:0px;
+}
+h2{
+  color:black;
+  font-weight:bolder;
+}
+form{
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  margin-top:50px;
+}
+.fp{
+  font-weight:lighter;
+  margin-left:25px;
+}
+button{
+  height:50px;
+  width:300px;
+  margin-left:25px;
+  background-color:#d946ef;
+}
+input{
+  width:250px;
+  padding:12px;
+  border:1px solid #ddd;
+  border-radius:25px;
+  outline:none;
+}
+.box2{
+  height:500px;
+  width:800px;
+  border:1px solid lightgray;
+  border-radius:3%;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  flex-direction:column;
+  margin-bottom:15px;
+}
+form{
+  display:flex;
+  flex-direction:column;
+  gap:15px;
+}
+.box1{
+  transition: all 1s ease-in-out;
+}
+.box2{
+  transition: all 1s ease-in-out;
+}
+.container:hover .box1{
+  transform:translateX(400px);
+  border-top-right-radius:0;
+   border-top-left-radius: 250px;
+   border-bottom-left-radius: 250px;
+   border-bottom-right-radius: 0px;
+}
+.container:hover .box2{
+  transform:translateX(-400px);
+}
